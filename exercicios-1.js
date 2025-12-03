@@ -26,10 +26,35 @@ console.log(idade);
 idade = 23;
 console.log(idade);
 // Tente alterar o valor de uma variável criada com const e observe o erro. Explique com um comentário no código.
+const nome = "Rodrigo";
+console.log(nome);
+
+//nome = "Anderson";
+//console.log(nome);
+
+//deu erro pois nao é possivel atribuir um novo valor a uma constante.
 
 
 
 // Crie duas variáveis numéricas e exiba no console os resultados de: soma, subtração, multiplicação, divisão e resto da divisão.
+let numero1 = 50
+let numero2 = 5
+console.log(numero1);
+console.log(numero2);
+let soma = numero1 + numero2;
+let subtração = numero1 - numero2;
+let multiplicação = numero1 * numero2;
+let divisao = numero1 / numero2;
+let resto = numero1 % numero2;
+
+console.log(soma);
+console.log(subtração);
+console.log(multiplicação);
+console.log(divisao);
+console.log(resto);
+
+
+
 
 // Crie uma variável nota e use operadores de comparação para verificar se a nota é maior que 7, igual a 10 e menor que 5.
 

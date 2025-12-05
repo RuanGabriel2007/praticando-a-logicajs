@@ -57,9 +57,21 @@ console.log(resto);
 
 
 // Crie uma variável nota e use operadores de comparação para verificar se a nota é maior que 7, igual a 10 e menor que 5.
+let nota = 8
 
+let notaMaiorQue7 = nota > 7; 
+let notaIgualA10 = nota == 10;
+let notaMenorQue5 = nota < 5;
+
+console.log(nota);
+console.log(notaMaiorQue7);
+console.log(notaMenorQue5);
+ 
 // Crie duas variáveis booleanas representando “acordou cedo” e “tomou café”. Use operadores lógicos (&&, ||, !) para testar condições.
+let acordouCedo = true
+let tomouCafe = false
 
+let diaDeclassico = tomouCafe 
 // Declare uma variável com valor undefined e outra com valor null. Mostre o tipo de cada uma.
 
 // Crie um array com 5 nomes. Exiba o primeiro e o último nome usando índice.
